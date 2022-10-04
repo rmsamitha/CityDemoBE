@@ -20,7 +20,7 @@ public class City {
     public City(long id, String name, CityPhoto photo) {
         this.cityId = id;
         this.name = name;
-        this.photoId = new CityPhoto(photo.getCityPhotoId(), photo.getImageSrcUrl() );
+        this.photoId = new CityPhoto(photo.getCityPhotoId(), photo.getImageSrcUrl());
     }
 }
 
